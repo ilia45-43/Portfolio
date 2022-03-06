@@ -18,7 +18,7 @@ namespace PortfolioMisc.Services.EmailService
             using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
             {
                 client.Connect("smtp.gmail.com", 465, true);
-                client.Authenticate("ilia377841@gmail.com", "11Radost");
+                client.Authenticate("ilia377841@gmail.com", "Не скажу");
                 client.Send(message);
 
                 client.Disconnect(true);
