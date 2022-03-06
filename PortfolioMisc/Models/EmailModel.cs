@@ -8,9 +8,10 @@ namespace PortfolioMisc.Models
 {
     public class EmailModel
     {
-        public string? name { get; set; }
-        public string? email { get; set; }
-        public string? mobileNumber { get; set; }
-        public string? message { get; set; }
+        public Guid Id { get; set; }
+        public string? Name { get; set; }
+        public string? Email { get; set; }
+        public string? Subject { get; set; }
+        public string? Message { get; set; }
     }
 }
